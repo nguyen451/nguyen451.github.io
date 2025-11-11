@@ -1,0 +1,13 @@
+---
+title: First Demo
+date: 2024-06-15
+draft: true
+cover:
+    image: /img/Wen.png
+    alt: Demo Cover Image
+    caption: An illustrative cover for the first demo
+# tags: [demo, example]
+# categories: [demos]
+---
+# First Demo
+This is the content of the first demo post.
