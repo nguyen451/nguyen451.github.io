@@ -10,11 +10,21 @@ theme = "PaperMod"
 #   category = "categories"
   series = "series"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 [params]
     ShowMenu = true
     ShowBreadCrumbs = true
     ShowReadingTime = true
     ShowPostNavLinks = true
+    math = true
 
     [params.homeInfoParams]
         Title = "Hi there"
