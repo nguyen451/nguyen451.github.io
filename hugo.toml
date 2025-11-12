@@ -1,4 +1,6 @@
 baseURL = "https://nguyen451.github.io/"
+canonifyURLs = true    # chuyển mọi đường dẫn thành tuyệt đối dựa trên baseURL
+relativeURLs = false   # (tuỳ chọn) để link không bị chuyển thành tương đối
 languageCode = "en-us"
 title = "Uyen's blog"
 theme = "PaperMod"
